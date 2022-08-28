@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Home from "./components/Home";
 import Nabvar from "./components/Nabvar";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Nabvar />
       <Home />
+      <About />
     </div>
   );
 }
