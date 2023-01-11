@@ -65,7 +65,7 @@ const Nabvar = () => {
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="/">
+                href="www.linkedin.com/in/federico-galup-a28791178">
                   Linkedin <FaLinkedin size={30} />
                 </a>
               </li>
@@ -77,7 +77,7 @@ const Nabvar = () => {
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="/">
+                href="/Contact">
                   Email <HiOutlineMail size={30} />
                 </a>
               </li>
