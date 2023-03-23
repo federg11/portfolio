@@ -12,7 +12,9 @@ const Nabvar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
+            <a href='/'>
             <img src={logo} alt="Imagen de logo" width={'50px'}/>
+            </a>
         </div>
 
           <ul className='hidden md:flex'>
@@ -59,25 +61,25 @@ const Nabvar = () => {
             <ul>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#128C7E]'>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="/">
+                href="https://wa.me/+5493816343931">
                   Whatsapp <FaWhatsapp size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="www.linkedin.com/in/federico-galup-a28791178">
+                href="https://www.linkedin.com/in/federico-galup-a28791178">
                   Linkedin <FaLinkedin size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="/">
+                href="https://github.com/federg11">
                   GitHub <FaGithub size={30} />
                 </a>
               </li>
-              <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                <a className='flex justify-between items-center w-full text-gray-300' 
-                href="/Contact">
+              {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+              <a className='flex justify-between items-center w-full text-gray-300' 
+                href="/">
                   Email <HiOutlineMail size={30} />
                 </a>
               </li>
@@ -86,7 +88,7 @@ const Nabvar = () => {
                 href="/">
                   Resume <BsFillPersonLinesFill size={30} />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
     </div>
