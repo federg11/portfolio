@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes, FaLinkedin, FaGithub, FaWhatsapp} from 'react-icons/fa';
-import { HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
 import logo from '../assets/logo5.jpg';
 import { Link } from 'react-scroll';
 
